@@ -7,7 +7,9 @@
 * GitHub username: karenwuxz
 
 * Notes:
-
+  With the method of refactoring, I would restructure lab 3 by creating a function that would solely retrieve data. 
+  Since the core component of all the functions is to either read or compare data, having a function that would take the data that is targeted by the     
+  parameters would prevent us from having to write the routine over and over in each function. 
 
 
 * General instructions:
