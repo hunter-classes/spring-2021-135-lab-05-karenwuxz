@@ -34,7 +34,7 @@ bool isPrime(int num){
 
 int nextPrime(int n){
     // 1113106 is the largest know prime gap
-    for(int i = n; i < n + 1113106; i++){
+    for(int i = n + 1; i < n + 1113106; i++){
         if(isPrime(i) == 1){
             return i;
         }
