@@ -52,7 +52,7 @@ TEST_CASE("isTwinPrime function"){
 //Task F
 
 TEST_CASE("nextTwinPrime function"){
-    CHECK(nextTwinPrime(11) == 13);
+    CHECK(nextTwinPrime(0) == 3);
     CHECK(nextTwinPrime(13) == 17);
     CHECK(nextTwinPrime(17207) == 17209);
     CHECK(nextTwinPrime(25) == 29); 

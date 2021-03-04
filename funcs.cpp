@@ -59,7 +59,7 @@ int countPrimes(int a, int b){
 
 bool isTwinPrime(int nums){
     if(isPrime(nums)){
-        if(isPrime(nums - 2) || isPrime(nums + 2)){
+        if(isPrime(nums - 2)|| isPrime(nums + 2)){
             return true;
         }
     }
@@ -69,7 +69,7 @@ bool isTwinPrime(int nums){
 //Task F
 
 int nextTwinPrime(int n){
-    for(int i = n + 2; i < n + 1113106; i += 2){
+    for(int i = n+1; i < n + 1113106; i++){
         if(isTwinPrime(i)){
             return i;
         }

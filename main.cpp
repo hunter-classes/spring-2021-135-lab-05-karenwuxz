@@ -24,6 +24,7 @@ int main(){
   std::cout << "amount of prime number 1-12: " << countPrimes(1,12) << std::endl;
   std::cout << "amount of prime number 24-50: " << countPrimes(24,50) << std::endl;
   std::cout << "amount of prime number 100-200: " << countPrimes(100,200) << std::endl;
+  std::cout << "amount of prime number 0-5: " << countPrimes(0,5) << std::endl;
 
   //Task E
   std::cout << "Is 11 a twin Prime: " << isTwinPrime(11) << std::endl;
@@ -31,9 +32,9 @@ int main(){
   std::cout << "Is 17207 a twin Prime: " << isTwinPrime(17207) << std::endl;
 
   //Task F
+  std::cout << "The next twin prime after 101 is " << nextTwinPrime(101) << std::endl;
   std::cout << "The next twin prime after 2 is " << nextTwinPrime(2) << std::endl;
-  std::cout << "The next twin prime after 25 is " << nextTwinPrime(25) << std::endl;
-  std::cout << "The next twin prime after 0 is " << nextTwinPrime(0) << std::endl;
+  std::cout << "The next twin prime after 10 is " << nextTwinPrime(10) << std::endl;
 
   //Task G
   std::cout << "The largest twin prime from 1-10 " <<largestTwinPrime(1,10) <<std::endl;
